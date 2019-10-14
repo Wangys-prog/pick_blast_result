@@ -21,7 +21,7 @@ def MakeOption():
     output_txt = options.output_txt
     return (input_txt, output_txt)
 
-def pick_lowest_evlue(input_txt,output_txt):
+def pick_blast_result(input_txt,output_txt):
     dict = {}
     output = open(output_txt,"w")
     for eachline in open (input_txt,"r"):
@@ -37,6 +37,6 @@ def pick_lowest_evlue(input_txt,output_txt):
 
 def main():
     input_txt, output_txt = MakeOption()
-    pick_lowest_evlue(input_txt, output_txt)
+    pick_blast_result(input_txt, output_txt)
 if __name__ == '__main__':
     main()
