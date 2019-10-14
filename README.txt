@@ -1,6 +1,6 @@
-# pick_lowest_evalue
+# pick_blast_result
 # help
-python pick_lowest_evalue.py -h
+python pick_blast_result.py -h
 
 (1) inputfile :
 1481393.1	M0185147	38.384	99	60	1	12	109	2386	2484	8.49e-16	78.2
