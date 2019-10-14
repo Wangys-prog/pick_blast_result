@@ -14,7 +14,7 @@ def MakeOption():
                       help="The input txt file is the blast result with outfmt 6",
                       default=False)
     parser.add_option("-o", "--output_txt", action="store", dest="output_txt",
-                      help="The output txt file contain lowest evalue or the irst blast result",
+                      help="The output txt file contain the first blast result",
                       default=False)
     (options, args) = parser.parse_args()
     input_txt = options.input_outfmt6
