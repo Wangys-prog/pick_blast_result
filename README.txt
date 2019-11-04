@@ -1,4 +1,11 @@
-# pick_blast_result
+########################## extract_blastreuslt_from_txt.py ##################################################
+
+python extract_blastreuslt_from_txt.py -h
+inputfile :
+(1) blast result with format 6
+(2) the ID you want to pick out
+
+####################### pick_blast_result ##################################################
 # help
 python pick_blast_result.py -h
 
